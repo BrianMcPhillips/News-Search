@@ -1,9 +1,9 @@
 import React from 'react';
-import AllArticles from '../../containers/AllArticles';
+import NewsSearch from '../../containers/NewsSearch';
 
 
 
 export default function App() {
-  return <AllArticles />
+  return <NewsSearch />
   ;
 }

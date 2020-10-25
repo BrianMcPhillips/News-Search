@@ -2,8 +2,10 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <h1>
-    Hello World
-  </h1>
+  <img
+    alt="newspaper loading screen"
+    class="Loading"
+    src="https://media0.giphy.com/media/j247L1e4KaY6bEBZQ0/giphy.gif"
+  />
 </DocumentFragment>
 `;
