@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Articles component renders all Articles 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Articles:
+    </h1>
+    <h2>
+      Test Article
+    </h2>
+    <h3>
+      This is a test description
+    </h3>
+    <h4>
+      Test Testerson
+    </h4>
+    <p>
+      12/12/2020
+    </p>
+    <p>
+      testurl.com/test/test
+    </p>
+    <img
+      alt="Test Article"
+      src="http://placeholder.com/article"
+    />
+    <p>
+      This is the best test article ever written, voted best
+            articleby the New York Times and associated who may or may not 
+            exist
+    </p>
+    <h2>
+      Test Article 2
+    </h2>
+    <h3>
+      This is the second test description
+    </h3>
+    <h4>
+      Test Testerson Jr.
+    </h4>
+    <p>
+      12/14/2020
+    </p>
+    <p>
+      testurl.com/test/test2
+    </p>
+    <img
+      alt="Test Article 2"
+      src="http://placeholder.com/article2"
+    />
+    <p>
+      This is the second best test article ever written, voted 
+          second best articleby the New York Times and associated who may or 
+          may not exist
+    </p>
+  </div>
+</DocumentFragment>
+`;

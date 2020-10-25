@@ -4,13 +4,16 @@ import Article from './Article';
 
 
 
-const ArticleList = ({ articles }) => {
+const Articles = ({ articles }) => {
   const articleElements = articles.map(article => (
     <Article 
       title={article.title}
       description={article.description}
       author={article.author}
       publishedAt={article.publishedAt}
+      url={article.url}
+      imageUrl={article.imageUrl}
+      content={article.content}
       key={article.title}
     />
   ));
@@ -23,7 +26,7 @@ const ArticleList = ({ articles }) => {
   );
 };
 
-ArticleList.propTypes = {
+Articles.propTypes = {
   articles: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
@@ -36,4 +39,4 @@ ArticleList.propTypes = {
   ),
 };
 
-export default ArticleList;
+export default Articles;

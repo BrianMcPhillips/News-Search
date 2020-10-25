@@ -12,7 +12,8 @@ describe('Article component', () => {
       publishedAt="12/12/2020"
       url="testurl.com/test/test"
       imageUrl="http://placeholder.com/article"
-      content="This is the best test article ever written"
+      content="This is the best test article ever written, voted best article
+        by the New York Times and associated who may or may not exist"
     />);
     expect(asFragment()).toMatchSnapshot();
   });

@@ -7,6 +7,6 @@ describe('NewsSearch container', () => {
   it('displays a loading screen at the start', () => {
     render(<NewsSearch />);
 
-    const loading = screen.getByAltText('newspaper loading screen');
+    screen.getByAltText('newspaper loading screen');
   });
 });

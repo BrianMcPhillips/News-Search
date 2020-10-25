@@ -22,7 +22,7 @@ exports[`Article component renders Article 1`] = `
     src="http://placeholder.com/article"
   />
   <p>
-    This is the best test article ever written
+    This is the best test article ever written, voted best article by the New York Times and associated who may or may not exist
   </p>
 </DocumentFragment>
 `;
