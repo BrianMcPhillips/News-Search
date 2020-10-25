@@ -1,10 +1,11 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import AllArticles from './AllArticles';
+import NewsSearch from './NewsSearch';
 
-describe('AllArticles container', () => {
+
+describe('NewsSearch container', () => {
   it('displays a loading screen at the start', () => {
-    render(<AllArticles />);
+    render(<NewsSearch />);
 
     const loading = screen.getByAltText('newspaper loading screen');
   });
