@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Search = ({ input, onChange, onSubmit }) => (
   <div>
     <form onSubmit={onSubmit}>
-      <label>Search For News Articles</label>
+      <label htmlFor="search">Search For News Articles</label>
       <input
         id="input"
         type="text"
@@ -12,7 +12,7 @@ const Search = ({ input, onChange, onSubmit }) => (
         value={input}
         onChange={onChange}
       />
-      <button>Submit</button>
+      <button data-testid="search-button">Submit</button>
     </form>
   </div>
 );

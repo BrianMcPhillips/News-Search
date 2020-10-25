@@ -2,10 +2,9 @@
 
 exports[`Articles component renders all Articles 1`] = `
 <DocumentFragment>
-  <div>
-    <h1>
-      Articles:
-    </h1>
+  <ul
+    data-testid="articles"
+  >
     <h2>
       Test Article
     </h2>
@@ -54,6 +53,6 @@ exports[`Articles component renders all Articles 1`] = `
           second best articleby the New York Times and associated who may or 
           may not exist
     </p>
-  </div>
+  </ul>
 </DocumentFragment>
 `;

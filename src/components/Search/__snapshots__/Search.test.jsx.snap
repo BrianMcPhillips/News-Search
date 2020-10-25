@@ -4,7 +4,9 @@ exports[`Search component renders the Search component 1`] = `
 <DocumentFragment>
   <div>
     <form>
-      <label>
+      <label
+        for="search"
+      >
         Search For News Articles
       </label>
       <input
@@ -13,7 +15,9 @@ exports[`Search component renders the Search component 1`] = `
         type="text"
         value="Election"
       />
-      <button>
+      <button
+        data-testid="search-button"
+      >
         Submit
       </button>
     </form>

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading screen component displays the loading image 1`] = `
+<DocumentFragment>
+  <img
+    alt="newspaper loading screen"
+    class="Loading"
+    src="https://media0.giphy.com/media/j247L1e4KaY6bEBZQ0/giphy.gif"
+  />
+</DocumentFragment>
+`;
